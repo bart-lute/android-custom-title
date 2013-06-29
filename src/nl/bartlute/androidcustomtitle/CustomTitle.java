@@ -9,10 +9,14 @@ public class CustomTitle extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		getWindow().requestFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+		requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
+
 		super.onCreate(savedInstanceState);
+
 		setContentView(R.layout.activity_custom_title);
-		setProgressBarIndeterminateVisibility(true);
+		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.custom_title);
+		
+//		setProgressBarIndeterminateVisibility(true);
 	}
 
 	@Override

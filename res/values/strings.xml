@@ -4,5 +4,6 @@
     <string name="app_name">Android Custom Title</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_bar_image_description">Title Bar Logo</string>
 
 </resources>
