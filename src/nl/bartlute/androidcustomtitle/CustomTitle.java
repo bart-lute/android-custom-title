@@ -16,7 +16,6 @@ public class CustomTitle extends Activity {
 		setContentView(R.layout.activity_custom_title);
 		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.custom_title);
 		
-//		setProgressBarIndeterminateVisibility(true);
 	}
 
 	@Override
